@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="h-full" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>EcoTrack - Decentralized Waste Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <!-- Stitch AI Tailwind Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            'colors': {
+              'on-secondary-fixed-variant': '#005231',
+              'surface': '#f3fcef',
+              'surface-container-lowest': '#ffffff',
+              'on-tertiary-container': '#ffecd6',
+              'background': '#f3fcef',
+              'surface-container': '#e8f0e4',
+              'secondary-fixed-dim': '#8cd6a9',
+              'on-secondary': '#ffffff',
+              'surface-container-low': '#edf6e9',
+              'inverse-primary': '#84d7ae',
+              'on-primary-fixed-variant': '#005236',
+              'tertiary-container': '#926300',
+              'error-container': '#ffdad6',
+              'on-primary-container': '#b1ffd6',
+              'on-secondary-container': '#26714b',
+              'on-secondary-fixed': '#002111',
+              'primary-container': '#237a57',
+              'surface-variant': '#dce5d9',
+              'secondary': '#1e6b46',
+              'on-tertiary-fixed-variant': '#614000',
+              'surface-dim': '#d4ddd0',
+              'error': '#ba1a1a',
+              'surface-bright': '#f3fcef',
+              'tertiary-fixed-dim': '#feba4a',
+              'outline-variant': '#bec9c1',
+              'inverse-surface': '#2a322a',
+              'inverse-on-surface': '#eaf3e7',
+              'on-error-container': '#93000a',
+              'primary-fixed-dim': '#84d7ae',
+              'on-background': '#161d16',
+              'on-surface': '#161d16',
+              'on-primary': '#ffffff',
+              'on-tertiary': '#ffffff',
+              'on-error': '#ffffff',
+              'on-tertiary-fixed': '#281800',
+              'tertiary-fixed': '#ffddb0',
+              'surface-container-highest': '#dce5d9',
+              'tertiary': '#734c00',
+              'primary-fixed': '#a0f4c9',
+              'surface-tint': '#0c6c4a',
+              'outline': '#6f7a72',
+              'primary': '#006041',
+              'surface-container-high': '#e2ebde',
+              'secondary-container': '#a7f3c3',
+              'on-surface-variant': '#3f4943',
+              'on-primary-fixed': '#002113',
+              'secondary-fixed': '#a7f3c3'
+            },
+            'borderRadius': {
+              'DEFAULT': '0.25rem',
+              'lg': '0.5rem',
+              'xl': '0.75rem',
+              'full': '9999px'
+            },
+            'spacing': {
+              'space-xs': '0.25rem',
+              'space-md': '0.75rem',
+              'gutter': '1rem',
+              'margin': '1rem',
+              'space-xl': '1.5rem',
+              'space-lg': '1rem',
+              'space-sm': '0.5rem'
+            },
+            'fontFamily': {
+              'body-md': ['Inter'],
+              'body-sm': ['Inter'],
+              'body-lg': ['Inter'],
+              'title-lg': ['Inter'],
+              'label-sm': ['Inter'],
+              'title-md': ['Inter'],
+              'display-lg': ['Inter'],
+              'label-md': ['Inter'],
+              'label-lg': ['Inter'],
+              'headline-md': ['Inter'],
+              'headline-lg': ['Inter']
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-container">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
